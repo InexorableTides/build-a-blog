@@ -49,7 +49,7 @@ def add_blog():
 
         return render_template('blog-uno.html', blog_name=blog_name, blog_body=blog_body, title='Blog')
     
-    return render_template('form.html', title='Add blg')  
+    return render_template('form.html', title='Add blog')  
 
 
 @app.route('/blog-post')
